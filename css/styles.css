@@ -1,0 +1,80 @@
+body{
+    font-size:1.2rem;
+}
+
+.styled{
+    padding: 10px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+.offset-md-1 .text-center{
+    border-color:  blue;
+    background-color: #f0f8ff;
+}
+
+.offset-md-1 .text-left{
+    border-left: 2px solid green;
+    background-color: #f0fffd;
+}
+
+.offset-md-1 .text-right{
+    border-left: 2px solid rgb(128, 0, 6);
+    background-color: #fff0f1;
+}
+
+.offset-md-1 .text-uppercase{
+    border-left: 2px solid rgb(224, 228, 1);
+    background-color: #fffff0;
+}
+
+.offset-md-1 .text-capitalize{
+    border-left: 2px solid rgb(255, 4, 16);
+    background-color: #fff0fc;
+}
+
+.offset-md-1 .blockquote{
+    border-left: 2px solid rgb(4, 255, 255);
+    background-color: #f0fffe;
+}
+
+.offset-md-1 button{
+    margin:5px 12px
+}
+
+.offset-md-1 button:last-child{
+    margin-left:0;
+    margin-right:0;
+}
+
+.offset-md-1 button:first-child{
+    margin-left:0;
+    margin-right:0;
+}
+
+.image1{
+    background-color: #779b9b23;
+    border:1px solid gainsboro;
+}
+
+.image2{
+    background-color: #9b779823;
+    border-top:1px solid #dcdcdc;
+    border-right:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+}
+
+.image-holder{
+    margin-top:2%;
+}
+
+.image-holder img{
+    width:350px;
+}
+
+.form-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
